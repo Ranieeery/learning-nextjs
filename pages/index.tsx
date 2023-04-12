@@ -11,6 +11,9 @@ export default function Home() {
         <li>
           <Link href={"/sobre"}>Sobre</Link>
         </li>
+        <li>
+          <Link href={"/blog/primeiro-post"}>Primeiro Post</Link>
+        </li>
       </ul>
     </div>
   );
