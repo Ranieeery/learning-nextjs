@@ -1,20 +1,13 @@
-// import { Inter } from "next/font/google";
 import Link from "next/link";
+import Events from "../components/Events";
 
-// const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <div>
-      <h1>Home</h1>
-      <ul>
-        <li>
-          <Link href={"/sobre"}>Sobre</Link>
-        </li>
-        <li>
-          <Link href={"/blog/primeiro-post"}>Primeiro Post</Link>
-        </li>
-      </ul>
+      <Events />
     </div>
+
+    
   );
 }

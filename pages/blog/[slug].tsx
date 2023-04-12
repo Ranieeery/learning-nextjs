@@ -2,10 +2,10 @@ import { useRouter } from 'next/router';
 
 const BlogPost = () => {
     const router = useRouter();
-    const { post } = router.query;
+    const { slug } = router.query;
 
     return (
-        <div>Página de {post}</div>
+        <div>Página de {slug}</div>
     );
 };
 
