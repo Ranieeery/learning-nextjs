@@ -14,8 +14,8 @@ const Events = ({ date, title, description, author }: EventsProps) => {
     .substring(0, 3); //Sem o substring fica com um "." no final, foi a forma que encontrei para resolver
 
   return (
-    <div className="bg-[#262D34] text-[#97989D] flex absolute">
-      <div className="bg-[#2C353D] flex flex-col justify-center items-center px-10 py-4 border border-solid border-[#262D34] rounded-md">
+    <div className="flex absolute bg-[#262D34] text-[#97989D]">
+      <div className="flex flex-col justify-center items-center px-10 py-4 border border-solid rounded-md border-[#262D34] bg-[#2C353D]">
         <p className="text-[#F7F7F7]">{month.toLocaleUpperCase()}</p>
         <p className="text-[#6C54F6]">{day}</p>
       </div>
